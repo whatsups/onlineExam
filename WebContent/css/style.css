@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+/*============================通用====*/
+* {margin:0;padding:0;}
+
+img{
+	display:block;
+}
+body {
+	background-color: #FFF;
+}
+a {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #2953A9;
+}
+a:hover {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+}
+.btn_grey {
+	font-family: "宋体";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
+}
+.word_white {
+	font-size: 9pt;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.word_grey{
+	font-size: 9pt;
+	color: #7B7B7B;
+}
+.word_orange{
+	font-size: 9pt;
+	color: #FF6600;
+	text-decoration: underline;
+}
+.word_orange1{
+	font-size: 9pt;
+	color: #FF6600;
+}
+.word_darkGrey{
+	font-size: 9pt;
+	color: #4E4E4E;
+}
+.txt_grey {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+	width:110;
+}
+#main_container{
+	width:1000px;
+	margin:0 auto;}
+#top{
+	}
+/*导航栏代码*/
+#nav_container{
+	height:40px;
+	line-height:40px;
+	margin-top:0px;
+	margin-right:5px;
+	float:right;
+	background-image:url(../img/bian.png);
+	background-repeat:repeat-y;
+	}
+
+#nav_container ul li{
+	background-color:#EEF6FF;
+	 list-style-type:none;
+	 width:166px;
+	 height:40px;
+	 font-weight:bold;
+	 text-align:center;
+	 line-height:40px;
+	 background-image:url(../img/icon.png);
+	 margin-bottom:10px;
+	 background-position:left;
+	 background-repeat:no-repeat;
+	 
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #5084BB;
+	 }
+#nav_container ul li a{
+	 display:block;
+	 text-decoration:none;
+	 width:166px;
+	 color:#000000;	}
+#nav_container ul li a:hover{ background-image:url(../img/mn4.jpg); color:#000; height:40px; width:166px;}	 
+#main_content{
+	width:1000px;
+	margin:0 auto;}
+#time{
+	color:#F00;
+	float:right;
+	font-weight:bolder;
+	font-size:25px;
+	position:absolute;
+	left: 856px;
+	top: 176px;
+}
+.text{
+	text-indent:2em;}
+.table /*用于查询以及类似的列表页*/ {
+	margin-top: 10px;
+	border-top-width: 3px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-bottom-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.table th {
+	background-image: url(../Images/Bj_titleTh.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 29px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 29px;
+	font-weight: normal;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5084BB;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.table td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 4px;
+	padding-left: 4px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+
+.table2 /*用于表单、详情等页面*/{
+	margin-top: 10px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.table2 th {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+	color: #355C88;
+}
+.table2 td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+.table3 /*用于表单、详情等页面*/{
+	width:1000px;
+	font-size: 9pt;
+	color: #4E4E4E;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-left-color: #5084BB;
+	margin:0 auto;
+}
+
+.table3 th {
+	background-image: url(../Images/Bj_titleTh.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 29px;
+	font-family: Arial, "宋体";
+	font-style: normal;
+	line-height: 29px;
+	font-weight: normal;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5084BB;
+}
+.table3 td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #5084BB;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.subTitle /*每一页的大标题*/{
+	margin-top: 5px;
+	font-family: Arial, "宋体";
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	height: 30px;
+	text-indent: 25px;
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+	width: 1000px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #3B6ABA;
+}
+/*= 搜索框 =*/
+.search {
+	height:36px;
+	float:right;
+	bottom:0;
+	right:10px;
+	line-height:36px;}
