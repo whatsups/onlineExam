@@ -1,4 +1,5 @@
 # onlineExam
+**JAVA课大作业**
 **javaWeb在线考试系统**
 - 简单C-S架构
 - 数据库采用*mysql*，JDBC编程
